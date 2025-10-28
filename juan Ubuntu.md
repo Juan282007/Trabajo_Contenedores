@@ -84,8 +84,8 @@ Configurar usuarios:
 
 ```sql
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'juan123';
-CREATE USER 'camilo'@'%' IDENTIFIED BY 'juan123';
-GRANT ALL PRIVILEGES ON *.* TO 'camilo'@'%' WITH GRANT OPTION;
+CREATE USER 'juan'@'%' IDENTIFIED BY 'juan123';
+GRANT ALL PRIVILEGES ON *.* TO 'juan'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 EXIT;
 ```
